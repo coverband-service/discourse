@@ -28,6 +28,9 @@ else
   gem 'sprockets-rails'
 end
 
+gem 'coverband'
+gem 'coverband-service-client'
+
 gem 'json'
 
 # TODO: At the moment Discourse does not work with Sprockets 4, we would need to correct internals
