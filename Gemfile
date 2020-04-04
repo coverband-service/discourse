@@ -10,6 +10,7 @@ def rails_master?
   ENV["RAILS_MASTER"] == '1'
 end
 
+gem 'coverband-service-client'
 if rails_master?
   gem 'arel', git: 'https://github.com/rails/arel.git'
   gem 'rails', git: 'https://github.com/rails/rails.git'
@@ -28,8 +29,6 @@ else
   gem 'sprockets-rails'
 end
 
-gem 'coverband'
-gem 'coverband-service-client'
 
 gem 'json'
 

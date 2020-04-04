@@ -91,7 +91,7 @@ GEM
       openssl-signature_algorithm (~> 0.3.0)
     coverband (4.2.4)
       redis
-    coverband-service-client (0.0.6)
+    coverband-service-client (0.0.7)
       coverband (~> 4.2.4)
     cppjieba_rb (0.3.3)
     crack (0.4.3)
@@ -451,7 +451,6 @@ DEPENDENCIES
   certified
   colored2
   cose
-  coverband
   coverband-service-client
   cppjieba_rb
   css_parser
